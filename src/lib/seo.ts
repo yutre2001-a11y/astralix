@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const SITE_URL = "https://astralix.vercel.app";
 
-const OG_IMAGE = "/ambiente.jpg";
+const OG_IMAGE = "/ambiente4.png";
 
 export function pageMetadata({
   title,
@@ -25,7 +25,7 @@ export function pageMetadata({
       locale: "es_ES",
       type: "website",
       images: [
-        { url: OG_IMAGE, width: 1472, height: 828, alt: "Ambientación de AstralixMC" },
+        { url: OG_IMAGE, width: 1672, height: 941, alt: "Ambientación de AstralixMC" },
       ],
     },
     twitter: {
