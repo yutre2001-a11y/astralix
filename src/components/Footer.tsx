@@ -105,7 +105,7 @@ export default function Footer() {
     <footer className="relative border-t border-white/10 bg-[var(--background)] overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <Image
-          src="/ambiente2.jpg"
+          src="/ambiente1.png"
           alt=""
           fill
           sizes="100vw"
