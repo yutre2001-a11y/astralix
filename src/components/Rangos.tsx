@@ -106,7 +106,7 @@ export default function Rangos() {
     <section id="rangos" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="absolute inset-x-0 top-0 h-96 pointer-events-none">
         <Image
-          src="/ambiente3.jpg"
+          src="/ambiente5.png"
           alt=""
           fill
           sizes="100vw"
