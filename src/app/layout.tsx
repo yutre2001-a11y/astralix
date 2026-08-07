@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     locale: "es_ES",
     type: "website",
     images: [
-      { url: "/ambiente.jpg", width: 1472, height: 828, alt: "Ambientación de AstralixMC" },
+      { url: "/ambiente4.png", width: 1672, height: 941, alt: "Ambientación de AstralixMC" },
     ],
   },
   twitter: {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "AstralixMC — Servidor de Minecraft Semi-Anárquico",
     description:
       "Servidor de Minecraft Semi-Anárquico con temática del End. Reglas mínimas, lore vivo, rangos y comunidad activa.",
-    images: ["/ambiente.jpg"],
+    images: ["/ambiente4.png"],
   },
 };
 
