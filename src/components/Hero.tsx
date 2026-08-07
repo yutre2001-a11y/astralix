@@ -53,7 +53,7 @@ export default function Hero() {
     <section id="inicio" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/ambiente.jpg"
+          src="/ambiente4.png"
           alt="Ambientación de AstralixMC"
           fill
           priority
