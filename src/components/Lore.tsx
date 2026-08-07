@@ -5,9 +5,9 @@ import { loreChapters } from "@/data";
 import { sketchRadius } from "@/lib/sketch";
 
 const ambienteShots = [
-  { src: "/ambiente.png", alt: "Ambiente del mundo de AstralixMC" },
   { src: "/ambiente1.png", alt: "Ambiente del mundo de AstralixMC" },
   { src: "/ambiente2.png", alt: "Ambiente del mundo de AstralixMC" },
+  { src: "/ambiente3.png", alt: "Ambiente del mundo de AstralixMC" },
 ];
 
 export default function Lore() {
@@ -15,7 +15,7 @@ export default function Lore() {
     <section id="lore" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <Image
-          src="/ambiente2.jpg"
+          src="/ambiente1.png"
           alt=""
           fill
           sizes="100vw"
