@@ -5,10 +5,11 @@ import Rangos from "@/components/Rangos";
 import Guides from "@/components/Guides";
 import Staff from "@/components/Staff";
 import Reglas from "@/components/Reglas";
+import HomeGuard from "@/components/HomeGuard";
 
 export default function Home() {
   return (
-    <>
+    <HomeGuard>
       <Hero />
       <Lore />
       <Modalidades />
@@ -16,6 +17,6 @@ export default function Home() {
       <Guides />
       <Staff />
       <Reglas />
-    </>
+    </HomeGuard>
   );
 }
