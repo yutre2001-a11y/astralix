@@ -1,4 +1,22 @@
-import Link from "next/link";
+"use client";
+
+function BackHome() {
+  return (
+    <a
+      href="/"
+      onClick={(e) => {
+        if (window.location.hash) {
+          e.preventDefault();
+          window.location.hash = "";
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }}
+      className="btn-gradient mt-10 inline-flex items-center gap-2 rounded-lg px-7 py-3.5 font-semibold transition"
+    >
+      Volver al inicio
+    </a>
+  );
+}
 
 export default function NotFoundContent() {
   return (
@@ -9,12 +27,6 @@ export default function NotFoundContent() {
         La página que buscas no existe o se perdió en el End. Vuelve al inicio y
         sigue explorando el servidor.
       </p>
-      <Link
-        href="/"
-        className="btn-gradient mt-10 inline-flex items-center gap-2 rounded-lg px-7 py-3.5 font-semibold transition"
-      >
-        Volver al inicio
-      </Link>
-    </main>
+      <BackHome />    </main>
   );
 }
