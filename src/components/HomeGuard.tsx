@@ -26,7 +26,9 @@ export default function HomeGuard({ children }: { children: ReactNode }) {
       } catch {
         h = "";
       }
-      setHash(h.toLowerCase());
+      h = h.toLowerCase();
+      const parts = h.split("#").filter(Boolean);
+      setHash(parts.length ? parts[parts.length - 1] : "");
     };
     sync();
     window.addEventListener("hashchange", sync);
