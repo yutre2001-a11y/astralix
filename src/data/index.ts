@@ -58,15 +58,15 @@ export const modalities = [
     comingSoon: false,
   },
   {
-    name: "Survival Clásico",
-    tag: "Vanilla+",
+    name: "AstralMix",
+    tag: "Survival Custom",
     image: "/survival.png",
     description:
-      "La experiencia vanilla de toda la vida con protección de terrenos, economía y eventos comunitarios. Pronto en AstralixMC.",
-    features: ["Protección de terrenos", "Economía y tiendas de jugador", "Eventos comunitarios"],
+      "Survival custom con contenido personalizado: explora el mundo Oasis, adéntrate en dungeons y descubre todas las sorpresas de AstralixMC.",
+    features: ["Mundo Oasis", "Dungeons y mazmorras", "Crafteos y mejoras personalizadas", "Eventos y recompensas de temporada"],
     icon: "pickaxe",
     size: "tall",
-    comingSoon: true,
+    comingSoon: false,
   },
 ];
 
@@ -143,8 +143,8 @@ export const rankGroups = [
   },
   {
     id: "survival",
-    label: "Survival Clásico",
-    note: "Vanilla+, protección de terrenos y eventos: recompensas propias del modo clásico.",
+    label: "AstralMix",
+    note: "Survival custom con mundo Oasis, dungeons y eventos: recompensas propias del modo.",
     ranks: [
       {
         name: "Ender",
@@ -265,8 +265,8 @@ export const ruleGroups = [
   },
   {
     id: "survival",
-    label: "Survival Clásico",
-    note: "Las reglas del modo clásico se publicarán próximamente.",
+    label: "AstralMix",
+    note: "Las reglas de AstralMix se publicarán próximamente.",
     categories: [],
   },
   {
