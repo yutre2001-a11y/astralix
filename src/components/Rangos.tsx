@@ -50,6 +50,38 @@ const RANK_ICONS: Record<string, React.ReactNode> = {
       <path d="M4 19h16" />
     </svg>
   ),
+  Guardian: (
+    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8} strokeLinejoin="round">
+      <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z" />
+      <circle cx="12" cy="11" r="2.5" />
+      <path d="M12 8.5v5" opacity={0.55} />
+    </svg>
+  ),
+  Champion: (
+    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8} strokeLinejoin="round">
+      <path d="M8 4h8v5a4 4 0 0 1-8 0V4Z" />
+      <path d="M8 6H5v1.5a3 3 0 0 0 3 3M16 6h3v1.5a3 3 0 0 1-3 3" opacity={0.55} />
+      <path d="M12 13v3m-4 4h8" />
+    </svg>
+  ),
+  Warlord: (
+    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 12 5 5m14 0-7 7" />
+      <path d="M5 5h4l10 10v4l-4-4m0 0-4 4" />
+    </svg>
+  ),
+  Titan: (
+    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8} strokeLinejoin="round">
+      <path d="M4 20 12 5l8 15H4Z" />
+      <path d="M10 20l2-4 2 4" opacity={0.55} />
+    </svg>
+  ),
+  King: (
+    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8} strokeLinejoin="round">
+      <path d="M5 17.5h14l-1.2-9.5-4 4.5-1.8-5-1.8 5-4-4.5L5 17.5Z" />
+      <path d="M5 20.5h14" opacity={0.55} />
+    </svg>
+  ),
 };
 
 const RANK_ITEMS: Record<string, string> = {
@@ -60,6 +92,11 @@ const RANK_ITEMS: Record<string, string> = {
   Abyss: "nether_star",
   Vyper: "trident",
   "Vyper+": "dragon_egg",
+  Guardian: "prismarine_crystals",
+  Champion: "diamond_sword",
+  Warlord: "fire_charge",
+  Titan: "dragon_breath",
+  King: "gold_ingot",
 };
 
 function RankBadge({
