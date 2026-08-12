@@ -47,17 +47,6 @@ export const loreChapters = [
 
 export const modalities = [
   {
-    name: "Semi-Anárquico",
-    tag: "Anarquía",
-    image: "/semianarquico.png",
-    description:
-      "Reglas mínimas, libertades máximas. El mundo no te protege: sobrevive, aliánzate y construye tu imperio entre las ruinas del End.",
-    features: ["PvP y raiding libres", "Sin claims ni protecciones", "Economía dura y comercio libre", "Estructuras del End repartidas por el mundo"],
-    icon: "sword",
-    size: "large",
-    comingSoon: false,
-  },
-  {
     name: "AstralMix",
     tag: "Survival Custom",
     image: "/survival.png",
@@ -65,6 +54,17 @@ export const modalities = [
       "Survival custom con contenido personalizado: explora el mundo Oasis, adéntrate en dungeons y descubre todas las sorpresas de AstralixMC.",
     features: ["Mundo Oasis", "Dungeons y mazmorras", "Crafteos y mejoras personalizadas", "Eventos y recompensas de temporada"],
     icon: "pickaxe",
+    size: "large",
+    comingSoon: false,
+  },
+  {
+    name: "Semi-Anárquico",
+    tag: "Anarquía",
+    image: "/semianarquico.png",
+    description:
+      "Reglas mínimas, libertades máximas. El mundo no te protege: sobrevive, aliánzate y construye tu imperio entre las ruinas del End.",
+    features: ["PvP y raiding libres", "Sin claims ni protecciones", "Economía dura y comercio libre", "Estructuras del End repartidas por el mundo"],
+    icon: "sword",
     size: "tall",
     comingSoon: false,
   },
