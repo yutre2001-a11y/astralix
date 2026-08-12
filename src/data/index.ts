@@ -248,8 +248,44 @@ export const ruleGroups = [
   {
     id: "survival",
     label: "AstralMix",
-    note: "Las reglas de AstralMix se publicarán próximamente.",
-    categories: [],
+    note: "Reglas de juego limpio, comercio justo y respeto entre vecinos del Oasis.",
+    categories: [
+      {
+        category: "Juego limpio",
+        rules: [
+          "Prohibido el uso de hacks, mods de ventaja o macros que automaticen el juego (X-ray, killaura, autoclicker, etc.).",
+          "Prohibido aprovechar bugs, duplicaciones o exploits: repórtalos al staff y recibirás recompensa; usarlos conlleva sanción y se retira lo obtenido.",
+          "Prohibido usar cuentas alternativas para evadir sanciones o reclamar recompensas más de una vez.",
+          "Prohibido prestar, vender o compartir tu cuenta de Minecraft.",
+        ],
+      },
+      {
+        category: "Economía y comercio",
+        rules: [
+          "Prohibido estafar en tiendas, puestos o trueques entre jugadores: la estafa se sanciona y el staff no compensa las pérdidas.",
+          "Los préstamos y acuerdos entre jugadores son responsabilidad de las partes implicadas; el staff no media en deudas personales.",
+          "Prohibido vender o comprar objetos, cuentas o ventajas del servidor con dinero real.",
+        ],
+      },
+      {
+        category: "Convivencia y mundo",
+        rules: [
+          "Respeta a todos los jugadores: prohibido el acoso, la discriminación, las amenazas y el spam en el chat.",
+          "Prohibido destruir, saquear o modificar construcciones protegidas de otros jugadores.",
+          "No tapes el spawn ni crees granjas o máquinas que provoquen lag excesivo para el resto del servidor.",
+          "Las construcciones en zonas sin proteger se modifican bajo tu responsabilidad: el staff no devuelve lo perdido.",
+        ],
+      },
+      {
+        category: "Reportes y staff",
+        rules: [
+          "Los reportes se envían por los canales oficiales de Discord con pruebas claras (vídeo o capturas).",
+          "Las apelaciones de sanciones se gestionan únicamente a través de Discord.",
+          "Está prohibido hacerse pasar por staff, moderador o administrador.",
+          "Las decisiones del staff son finales, pero siempre se pueden apelar de forma respetuosa.",
+        ],
+      },
+    ],
   },
   {
     id: "discord",
