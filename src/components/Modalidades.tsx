@@ -59,7 +59,7 @@ export default function Modalidades() {
         <SectionHeading
           label="Modalidades"
           title="Elige tu forma de sobrevivir."
-          subtitle="AstralixMC nace con su modalidad principal, Semi-Anárquico, y prepara la llegada del Survival Clásico."
+          subtitle="AstralixMC nace con su modalidad principal, Semi-Anárquico, y suma AstralMix: un survival custom con mundo Oasis y dungeons por explorar."
         />
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 auto-rows-[minmax(180px,auto)]">
